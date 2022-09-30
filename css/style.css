@@ -1,0 +1,31 @@
+/* #resultado{
+    height: 75px;
+    width: 40%;
+} */
+.texts {
+    font-weight: bolder;
+    color: red;
+}
+#title {
+    background-color: antiquewhite;
+}
+
+#inputs{
+    background: #9cd3d3;
+}
+#firstitle{
+    background: #e8630a; 
+}
+hr {
+    border: 10px solid green;
+    border-radius: 5px;
+}
+#turesultado {
+    background: #ff8585;
+}
+
+input{
+    font-weight: bolder;
+    text-align: center;
+    
+}

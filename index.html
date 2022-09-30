@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"/>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <br>
+        <hr>
+        <br>
+
+      <div class="container"> 
+        <div class="row justify-content-center" id="firstitle">
+            <h1 class="text-center text-sm-start" id="title">¿Es dia laboral o no?🤔</h1>
+            
+        </div>
+        <br>
+       <!--colocando todos los inputs para recibir datos-->
+        <div class="row align-items-center" id="inputs">
+            
+            <div class="col-sm-4  my-3"><span class="texts"> Día/Day   </span><input type="number" id="day" placeholder="dia"/></div> 
+            <div class="col-sm-4  my-3"><span class="texts">Mes/Month   </span><input type="number" id="month" placeholder="mes"/></div> 
+            <div class="col-sm-4 my-3"><span class="texts">Año/Year   </span><input type="number" id="year" placeholder="año"/></div>
+        </div>
+        <br>
+        
+      <!--seccion para el boton y el resultado arrojado-->
+        <br>
+        <div class="d-flex justify-content-center" id="calcIt">
+            <button type="button" id="calcular" class="btn btn-success col-sm-6">Calcular</button>
+        </div>
+
+        <br>
+        
+        <br>
+
+        <div class="row" id="turesultado">
+            <input class="col-sm-12 my-3" type="text" id="resultado" placeholder="Resultado:👀" disabled />
+        </div>
+      </div> 
+    </body>
+    <script src="./scripts/script.js"></script>
+</html>
